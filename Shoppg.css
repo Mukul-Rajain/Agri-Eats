@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Poppins:wght@500&display=swap');
+              
+body{
+    
+    background-color: #F3EED9;
+}
+.infogrid{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+p{
+font-family:arial;
+}
+.video-preview{
+width:160px;
+height:200px;
+border-width:2px;
+border-style: solid;
+border-color:rgb(200,200,200);
+color:rgb(96,96,96);
+display:inline-block;
+cursor:pointer;
+text-align:center;
+transition:box-shadow 0.5s, padding 0.5s;
+color:black;
+background-color: #f1faee;
+
+}
+.video-preview:hover{
+box-shadow:0px 0px 15px rgba(0,0,0,0.35);
+padding:5px;
+border:none;
+}
+.thumb-1{
+width: 158px;
+height: 90px;
+}
+.para{
+font-weight:bold;
+text-align: center;
+color:black;
+}
+.para-stats {
+
+font-size:14px;
+text-align: center;
+}
+.infogrid{
+display:grid;
+grid-template-columns: 160px 160px 160px 160px;
+column-gap:30px;
+row-gap:30px;
+margin-top:30px;
+}
+.omii{
+color:white;
+background-color: #3c6e71;
+font-size: 20px;
+}
+.omii:hover{
+    background-color: #2f4858;
+}

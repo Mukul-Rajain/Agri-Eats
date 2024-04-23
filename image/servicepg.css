@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+.wrapper{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #f3eed9;
+
+}
+.wrapper h1{
+    font-size : 3em;
+    margin: 25px 0;
+    text-align: center;
+    font-weight: 500;
+}
+.content-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-top: 30px ;
+}
+.card{
+    min-height: 220px;
+    width:320px;
+    padding:30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    margin:10px 4px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+.card i{
+    margin:20px;
+    color:#cd5c5c
+}
+.card h2{
+    margin-bottom:12px;
+    font-weight: 400;
+    text-align: center;
+}
+.card p{
+    color:#6c757d;
+    text-align: center;
+}
+
+.card:hover i,
+.card:hover p{
+    color:#fff;
+}
+.card:hover h2{
+    font-weight: 500;
+    color:#cd5c5c;
+}
+.card:nth-child(1):hover{
+    background:linear-gradient(45deg,
+                              rgba(255,28,8,0.8) 0%,
+                              rgba(255,0,82,0.8) 100%),
+                              url('image/serpg1.jpg') ;
+     
+    background-size: cover;                            
+}
+.card:nth-child(2):hover{
+    background:linear-gradient(45deg,
+                              rgba(255,28,8,0.8) 0%,
+                              rgba(255,0,82,0.8) 100%),
+                              url('image/serpg1.jpg');
+    
+    background-size: cover;
+                              
+}
+.card:nth-child(3):hover{
+    background:linear-gradient(45deg,
+                              rgba(255,28,8,0.8) 0%,
+                              rgba(255,0,82,0.8) 100%),
+                              url('image/serpg1.jpg');
+    
+    background-size: cover;
+                              
+}
+.card:nth-child(4):hover{
+    background:linear-gradient(45deg,
+                              rgba(255,28,8,0.8) 0%,
+                              rgba(255,0,82,0.8) 100%),
+                              url('image/serpg1.jpg');
+    
+    background-size: cover;
+                              
+}
+.card:nth-child(5):hover{
+    background:linear-gradient(45deg,
+                              rgba(255,28,8,0.8) 0%,
+                              rgba(255,0,82,0.8) 100%),
+                              url('image/serpg1.jpg');
+    
+    background-size: cover;
+                              
+}
+.card:nth-child(6):hover{
+    background:linear-gradient(45deg,
+                              rgba(255,28,8,0.8) 0%,
+                              rgba(255,0,82,0.8) 100%),
+                              url('image/serpg1.jpg');
+    
+    background-size: cover;
+                              
+}
+.color{
+    color: #cd5c5c;
+    height:50px;
+    width:50px
+}
+a{
+    text-decoration: none;
+}
+.change{
+    color:#2f4858
+}
+.ser{
+    text-decoration: none;
+    color:#2f4858;
+}
+.color:hover{
+    color:white;
+    text-decoration: none;
+}
